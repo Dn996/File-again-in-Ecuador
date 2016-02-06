@@ -1,0 +1,342 @@
+
+*{
+
+  padding: 0px;
+  margin: 0px;
+
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#header{
+  margin: auto;
+  width: 500px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+
+
+
+ul, ol {
+  list-style: none;
+}
+.nav li a{
+
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+
+}
+.nav li a:hover{
+
+  background-color: #434343;
+}
+.nav > li{
+  float: left;
+}
+
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.nav li:hover > ul{
+   display: block;
+}
+
+.nav li ul li {
+
+  position: relative;
+
+}
+
+.nav li ul li ul {
+
+right: -140px;
+top: 0px;
+
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+img {
+
+    max-width:auto;
+    max-height:auto;
+    margin: 20px auto;
+}
+.fondoTitulo{
+  background: #000000;
+  opacity: 0.6;
+}
+img.tamanio {
+
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+   
+}
+
+tr.tabfila{
+ width: 400px;
+}
+td.tabcelda{
+  width: 100px;
+}
+
+
+
+img.tabimg {
+    background: #000000;
+    display: block;
+    width: 100%;
+    max-height: 150px;
+    max-width: 300px;
+    height: 100%;
+ 
+ 
+}
+img.tabimg:hover .titulo{
+  margin-top: -120px;
+
+}
+
+.carousel-inner1 {
+    background: rgb(0, 0, 0) none repeat scroll 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+}
+.images{
+  width:200px;
+  height:190px;
+  position:absolute;
+}
+
+.images.ng-hide-add,
+.images.ng-hide-remove {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block!important;
+}
+.images.ng-hide-add.ng-hide-add-active,
+.images.ng-hide-remove {
+  opacity: 0;
+}
+.images.ng-hide-add,
+.images.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+}
+
+#opc{
+  position:absolute;
+  top:200px;
+}
+
+
+
+*{
+  padding:0px;
+  margin:0px;
+}
+
+#header{
+  margin: auto;
+  width: 85%;
+  display: table;
+  font-family: Arial,Helvetica,sans-serif;
+  table-layout: fixed;
+  margin: 20px auto;
+  text-shadow:1px 1px 0px rgba(0,0,0,.3);
+}
+
+ul, ol {
+  list-style: none;
+}
+.nav li a{
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+
+}
+.nav li a:hover{
+  background-color: #434343;
+  background: rgba(0,0,0,.3);
+  box-shadow:inset 0px 3px 2px rgba(0,0,0,.1)
+}
+.nav > li{
+  float: left;
+}
+
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px; 
+}
+.nav li:hover > ul{
+  display: block;
+}
+
+.nav li ul li {
+  
+  position: relative;
+
+}
+
+.nav li ul li ul {
+right: -140px;
+top: 0px;
+position: absolute;
+
+}
+.search_bar{
+  width: 20%;
+  float: left;
+  padding: 8px 10px;
+  box-sizing:border-box;
+  position: relative;
+}
+.search_bar input{
+  width: 70%;
+  height: auto;
+  border-radius: 50px;
+  border: none;
+  border-bottom: 1px solid #858585;
+  padding: 0px 10px 0px 25px;
+  box-sizing:border-box;
+  height: 22px;
+  box-shadow: inset 0px 1px 3px rgba(0,0,0,.7);
+ 
+
+}
+
+.search_bar input:focus{
+    background: #fff;
+    box-shadow: none;
+}
+
+.icon-search{
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+
+img {
+    max-width:auto;
+    max-height:auto;
+    
+}
+.fondoTitulo{
+  background: #000000;
+  opacity: 0.6;
+}
+img.tamanio {
+
+    
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+   
+}
+.carousel-inner1 {
+    background: rgb(0, 0, 0) none repeat scroll 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+}
+.images{
+  width:200px;
+  height:190px;
+  position:absolute;
+}
+
+.images.ng-hide-add,
+.images.ng-hide-remove {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block!important;
+}
+.images.ng-hide-add.ng-hide-add-active,
+.images.ng-hide-remove {
+  opacity: 0;
+}
+.images.ng-hide-add,
+.images.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+}
+
+#opc{
+  position:absolute;
+  top:200px;
+}
+
+.imagen_articulo {
+  margin-top: 0;
+  background: #000000;
+ 
+  -webkit-transition-property: margin-top;
+  -webkit-transition-duration: .5s;
+ 
+  -moz-transition-property: margin-top;
+  -moz-transition-duration: .5s;
+ 
+  -o-transition-property: margin-top;
+  -o-transition-duration: .5s;
+ 
+  -ms-transition-property: margin-top;
+  -ms-transition-duration: .5s;
+ 
+}
+
+
+.imagen_articulo:hover {
+  margin-top: -120px;
+}

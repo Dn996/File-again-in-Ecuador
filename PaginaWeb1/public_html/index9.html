@@ -1,0 +1,74 @@
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <title>FEEL AGAIN IN ECUADOR</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link href="css/app.css" rel="stylesheet"  media="screen">
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css" >
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'/> 
+
+</head>
+
+<body ng-app="Myapp" >
+
+<div ng-controller="obtenerCarousel">
+      
+       <div class="search_bar" id="barra">
+          <a href="#" class="icon-search"></a>
+            <input type="text" class="form-control" id="usr"  ng-model="countryName">
+       </div>
+        <button ng-click="searchClic()" class="btn btn-lg"> Search</button>  
+
+        <div ng-view></div>
+        
+        <table class="table table-striped">
+
+        <thead>
+          <tr>
+          <th>IMAGENES</th>
+          <th>DESCRIPCION</th>
+          </tr>
+        </thead>  
+        <tbody data-ng-repeat="post in posts2 ">
+          <tr class="tabfila " >
+            <div> <td class="tabcelda"><a href="{{post.image}}"><img class = "tabimg" ng-src="{{post.image}}" > </a>
+                     {{post.title}} 
+              </div>
+              <div><td class="tabcelda"><a href="{{post.url}}">{{post.description}} </a>
+
+              </div>
+             
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    
+
+<!--angular-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-route.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.tpl.min.js"></script>
+
+<script src="js/controllers.js"></script>
+<script src="js/directiva/carousel.js"></script>
+<script src="js/routes.js"></script>
+<script src="js/controller/data-carousel.js"></script>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
